@@ -1,0 +1,31 @@
+Summary: User can create a post
+	? Edit function? Delete function? Title or date? Viewer interaction?
+		Yes. Yes. not high priority 
+Summary: User can log in as admin
+Summary: Viewers see a homepage
+	? Should it be a welcome about? or jump in to the posts?
+			Blog page right away
+		? Should posts be in one coloum or multiple? How many?
+			One coloum. Scroll down to clickable button
+Summary: User can create a post using a html editor
+Summary: User can tag posts
+	? Can viewers see them? How does display?
+Summary: Viewers can view posts containing a certain tag
+	? Viewers be able to return to home? Viewers have a list of all tags? Catagory vs Tag?
+		Tags viewable. Catagorized by tags. Tags Cloud
+Summary: User can create static pages
+	? Do you want it to be styled? If so how? Should be on nav-bar? How many planned?
+	Yes in the nav-bar, style simialarly. Delete/Edit functions
+Summary: Sub-user can make posts
+	? Can they edit/delete posts?
+	Write new posts. Cannot with live posts
+Summary: User can approve of sub-user's posts
+	? Notifications?
+	Yes
+Summary: User can set a schedual for a post
+Summary: User can find pages through nav-bar
+	? how to style?
+	Show demo
+
+
+Possible Summary: Timeline for viewers to find posts

@@ -1,0 +1,7 @@
+CREATE TABLE StaticPages (
+  PageID INT AUTO_INCREMENT,
+  Title VARCHAR(50),
+  ContentBody TEXT NOT NULL,
+IsLive tinyint (1),
+  PRIMARY KEY(PageID));
+

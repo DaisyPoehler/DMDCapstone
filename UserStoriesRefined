@@ -1,0 +1,107 @@
+User Story 1: Viewers can see a homepage when they visit the website. The landing page immediately goes to 		the blog posts. 
+
+	Pre-Conditions:
+		-Client meeting/clarifying requirements.
+	Post-Conditions:
+		-The posts are displayed in one column that extends downward. 		
+		-(Webpage skeleton set up).
+
+User Story 2: Admin can create a plain text blog post to be viewed in current session.
+	
+	Pre-Conditions:
+		-Admin can access content creation page.
+		-(JSPs/Skeleton set up).
+	Post-Conditions:
+		-Landing page loads post that was entered by admin when moving from the 'create blog post' 			form to the page that displays the blog posts.
+
+User Story 3: Admin can edit/delete blog posts in the current session.
+
+	Pre-Conditions:
+		-Admin can create blog posts.
+	Post-Conditions:
+		-Admin can edit and delete blog posts.
+
+User Story 4: Viewers can view previously created blog posts.
+
+	Pre-Conditions:
+		-Admin has ability to create, edit and delete blog posts in a current session.
+	Post-Conditions:
+		-Blog posts will be persisted through multiple sessions.
+
+
+User Story 5: Admin can create a rich text post using an HTML editor (add Tiny MCE plug-in).
+
+	Pre-Conditions:
+		-Admin wants to add more than just text to a blog post.
+	Post-Conditions:
+		-Admin has ability to add rich text, images, media to blog post.
+
+User Story 6: Viewers can find pages through a nifty navigation-bar.
+
+	Pre-Conditions:
+		-Various blog posts exist.
+	Post-Conditions:
+		-Viewers can navigate through blog posts. Viewers can view more than the initially loaded 			number of blog posts by clicking a 'load-more' button.
+	
+User Story 7: Admin can create static pages
+
+	Pre-Conditions:
+		-There is a navigation bar waiting for new links to be added.
+	Post-Conditions:
+		-New pages appear on navigation bar as created by admin.
+
+User Story 8: Admin can tag posts with a #.
+
+	Pre-Conditions:
+		-Admin can make blog posts. 
+	Post-Conditions:
+		-#s will be associated with blog post.
+
+User Story 9: Blog viewers can search posts by #.
+
+	Pre-Conditions:
+		-There are #'d posts that exist.
+	Post-Conditions:
+		-Viewers can view all blog posts associated with a #. 
+
+User Story 10: Admin can 'log-in' to admin-only section of website.
+	
+	Pre-Conditions:
+		-Basic blog functionality working, Admin has need for admin/moderator roles.
+	Post-Conditions:
+		-Security/login features implemented, admin/moderator roles assigned.
+
+User Story 11: Moderator can make posts.
+
+	Pre-Conditions:
+		-There is a second (moderator) user that needs some capabilities as defined by admin.
+	Post-Conditions:
+		-The second user (moderator) has access to writing posts (without admin functionality).
+
+User Story 12: Admin can approve of moderator's posts
+	
+	Pre-Conditions:
+		-Posts from moderator exist.
+	Post-Conditions:
+		-Admin has ability to approve moderator's posts to make them go live. There is a 			 place where the admin can view posts pending approval.
+
+Possible User Story: Admin receives message upon login that there is a blog pending approval from moderator.
+	
+	Pre-Conditions:
+		-Posts exist that require admin approval to be posted.
+	Post-Conditions:
+		-Notification system exists to notify admin of posts pending approval.
+
+Possible User Story: Admin can set a schedule for a post.
+	
+	Pre-Conditions:
+		-Admin/moderator has a need to schedule future posts.
+	Post-Conditions:
+		-Admin can set a range of dates for a post to display.
+
+Possible User Story: Viewers can select blog posts with a specified time period. 
+
+	Pre-Condition:
+		-Posts are associated with a creation time.
+	Post-Condition:
+		-Navigation ability for viewers to access blog posts by date.

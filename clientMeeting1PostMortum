@@ -1,0 +1,20 @@
+-overall page title "Cliente's Client Services"
+-no subtitle (at least at this point)
+-tag searchability
+	-click a tag, add that as a search parameter, refines which posts are displayed
+	-have a button that resets search and thus shows all posts
+-wants ability to toggle between publish and take down
+-style
+	- no black on side, make it a lighter color
+	- add a patterned background that adds visual interest without dominating, like stucco or wood
+-blog posts should display date, show in reverse order (newest first)
+-security
+	-admin can do everything
+	-user can add/edit, (pending approval by admin to be posted)
+-navigation
+	-date navigation not important
+	-tag navigation important
+-page title needs to be fixed while scrolling
+-add ability to add images/media
+-add 'home' text next to glyphicon
+-login link for admin should be hidden somewhere unobtrusive

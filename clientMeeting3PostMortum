@@ -1,0 +1,4 @@
+-admin page taglist should display tags for live and not live posts
+-search tags remove onclick should not remove all tags from the search list, just that tag
+-opacity change of wells should be half transparent
+-make things more attractive/cosmetic stuff

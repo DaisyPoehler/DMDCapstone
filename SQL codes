@@ -1,0 +1,20 @@
+CREATE TABLE Posts(
+  PostID INT AUTO_INCREMENT,
+  Title VARCHAR(50),
+  ContentBody TEXT NOT NULL,
+  Media VARCHAR(50),
+  Date DATE NOT NULL,
+  IsLive TINYINT(1) NOT NULL,
+  PRIMARY KEY(PostID)
+);
+CREATE TABLE Tags(
+  TagName VARCHAR(50),
+  PRIMARY KEY(TagName)
+);
+
+CREATE TABLE `PostTags` (
+ `PostID` int(11) NOT NULL,
+ `TagName` varchar(50) NOT NULL,
+ PRIMARY KEY (`PostID`,`TagName`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+

@@ -1,0 +1,4 @@
+-tag list should not have duplicates(load from tags table, not post list)
+-site should display a list of current search terms and be able to remove that search term
+-fix how tags are loaded into ckeditor, it is loading spaces adn making blank tags
+-users/validation/security features
